@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name L1Switch-cache)(type Legacy)(uri ${KIPRJMOD}/L1Switch-cache.lib)(options "")(descr ""))
+  (lib (name L1Switch)(type Legacy)(uri ${KIPRJMOD}/L1Switch.lib)(options "")(descr ""))
+)

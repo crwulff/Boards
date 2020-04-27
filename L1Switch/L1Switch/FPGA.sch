@@ -1,0 +1,283 @@
+EESchema Schematic File Version 5
+EELAYER 33 0
+EELAYER END
+$Descr B 17000 11000
+encoding utf-8
+Sheet 3 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+BusAlias MAC1_SGMII 
+Connection ~ 1900 9100
+Entry Wire Line
+	1900 6100 2000 6000
+Entry Wire Line
+	1900 6200 2000 6100
+Entry Wire Line
+	1900 6300 2000 6200
+Entry Wire Line
+	1900 6400 2000 6300
+Entry Wire Line
+	1900 6500 2000 6400
+Entry Wire Line
+	1900 6600 2000 6500
+Entry Wire Line
+	1900 6700 2000 6600
+Entry Wire Line
+	1900 6800 2000 6700
+Entry Wire Line
+	1900 6900 2000 6800
+Entry Wire Line
+	1900 7000 2000 6900
+Entry Wire Line
+	1900 7100 2000 7000
+Entry Wire Line
+	1900 7200 2000 7100
+Entry Wire Line
+	1900 7300 2000 7200
+Entry Wire Line
+	1900 7400 2000 7300
+Entry Wire Line
+	1900 7500 2000 7400
+Entry Wire Line
+	1900 7600 2000 7500
+Entry Wire Line
+	8500 6000 8600 6100
+Entry Wire Line
+	8500 6100 8600 6200
+Entry Wire Line
+	8500 6200 8600 6300
+Entry Wire Line
+	8500 6300 8600 6400
+Entry Wire Line
+	8500 6400 8600 6500
+Entry Wire Line
+	8500 6500 8600 6600
+Entry Wire Line
+	8500 6600 8600 6700
+Entry Wire Line
+	8500 6700 8600 6800
+Entry Wire Line
+	8500 6800 8600 6900
+Entry Wire Line
+	8500 6900 8600 7000
+Entry Wire Line
+	8500 7000 8600 7100
+Entry Wire Line
+	8500 7100 8600 7200
+Entry Wire Line
+	8500 7200 8600 7300
+Entry Wire Line
+	8500 7300 8600 7400
+Entry Wire Line
+	8500 7400 8600 7500
+Entry Wire Line
+	8500 7500 8600 7600
+Wire Wire Line
+	2000 6000 3150 6000
+Wire Wire Line
+	2000 6100 3150 6100
+Wire Wire Line
+	2000 6200 3150 6200
+Wire Wire Line
+	2000 6300 3150 6300
+Wire Wire Line
+	2000 6400 3150 6400
+Wire Wire Line
+	2000 6500 3150 6500
+Wire Wire Line
+	2000 6600 3150 6600
+Wire Wire Line
+	2000 6700 3150 6700
+Wire Wire Line
+	2000 6800 3150 6800
+Wire Wire Line
+	2000 6900 3150 6900
+Wire Wire Line
+	2000 7000 3150 7000
+Wire Wire Line
+	2000 7100 3150 7100
+Wire Wire Line
+	2000 7200 3150 7200
+Wire Wire Line
+	2000 7300 3150 7300
+Wire Wire Line
+	3150 7400 2000 7400
+Wire Wire Line
+	3150 7500 2000 7500
+Wire Wire Line
+	7150 6000 8500 6000
+Wire Wire Line
+	7150 6100 8500 6100
+Wire Wire Line
+	7150 6200 8500 6200
+Wire Wire Line
+	7150 6300 8500 6300
+Wire Wire Line
+	7150 6400 8500 6400
+Wire Wire Line
+	7150 6500 8500 6500
+Wire Wire Line
+	7150 6600 8500 6600
+Wire Wire Line
+	7150 6700 8500 6700
+Wire Wire Line
+	7150 6800 8500 6800
+Wire Wire Line
+	7150 6900 8500 6900
+Wire Wire Line
+	7150 7000 8500 7000
+Wire Wire Line
+	7150 7100 8500 7100
+Wire Wire Line
+	7150 7200 8500 7200
+Wire Wire Line
+	7150 7300 8500 7300
+Wire Wire Line
+	7150 7400 8500 7400
+Wire Wire Line
+	7150 7500 8500 7500
+Wire Bus Line
+	1650 9100 1900 9100
+Wire Bus Line
+	1900 5500 1900 6200
+Wire Bus Line
+	1900 6200 1900 6400
+Wire Bus Line
+	1900 6400 1900 6600
+Wire Bus Line
+	1900 6600 1900 6800
+Wire Bus Line
+	1900 6800 1900 7000
+Wire Bus Line
+	1900 7000 1900 7200
+Wire Bus Line
+	1900 7200 1900 7400
+Wire Bus Line
+	1900 7400 1900 7600
+Wire Bus Line
+	1900 7600 1900 9100
+Wire Bus Line
+	1900 9100 8600 9100
+Wire Bus Line
+	8600 5400 8600 6200
+Wire Bus Line
+	8600 6200 8600 6400
+Wire Bus Line
+	8600 6400 8600 6600
+Wire Bus Line
+	8600 6600 8600 6800
+Wire Bus Line
+	8600 6800 8600 7000
+Wire Bus Line
+	8600 7000 8600 7200
+Wire Bus Line
+	8600 7200 8600 7400
+Wire Bus Line
+	8600 7400 8600 7500
+Wire Bus Line
+	8600 7500 8600 9100
+Text Label 3100 6000 2    50   ~ 0
+SGMII0.TD_P7
+Text Label 3100 6100 2    50   ~ 0
+SGMII0.TD_N7
+Text Label 3100 6200 2    50   ~ 0
+SGMII0.TD_P6
+Text Label 3100 6300 2    50   ~ 0
+SGMII0.TD_N6
+Text Label 3100 6400 2    50   ~ 0
+SGMII0.TD_P5
+Text Label 3100 6500 2    50   ~ 0
+SGMII0.TD_N5
+Text Label 3100 6600 2    50   ~ 0
+SGMII0.TD_P4
+Text Label 3100 6700 2    50   ~ 0
+SGMII0.TD_N4
+Text Label 3100 6800 2    50   ~ 0
+SGMII0.TD_P3
+Text Label 3100 6900 2    50   ~ 0
+SGMII0.TD_N3
+Text Label 3100 7000 2    50   ~ 0
+SGMII0.TD_P2
+Text Label 3100 7100 2    50   ~ 0
+SGMII0.TD_N2
+Text Label 3100 7200 2    50   ~ 0
+SGMII0.TD_P1
+Text Label 3100 7300 2    50   ~ 0
+SGMII0.TD_N1
+Text Label 3100 7400 2    50   ~ 0
+SGMII0.TD_P0
+Text Label 3100 7500 2    50   ~ 0
+SGMII0.TD_N0
+Text Label 7250 6000 0    50   ~ 0
+SGMII0.RD_P7
+Text Label 7250 6100 0    50   ~ 0
+SGMII0.RD_N7
+Text Label 7250 6200 0    50   ~ 0
+SGMII0.RD_P6
+Text Label 7250 6300 0    50   ~ 0
+SGMII0.RD_N6
+Text Label 7250 6400 0    50   ~ 0
+SGMII0.RD_P5
+Text Label 7250 6500 0    50   ~ 0
+SGMII0.RD_N5
+Text Label 7250 6600 0    50   ~ 0
+SGMII0.RD_P4
+Text Label 7250 6700 0    50   ~ 0
+SGMII0.RD_N4
+Text Label 7250 6800 0    50   ~ 0
+SGMII0.RD_P3
+Text Label 7250 6900 0    50   ~ 0
+SGMII0.RD_N3
+Text Label 7250 7000 0    50   ~ 0
+SGMII0.RD_P2
+Text Label 7250 7100 0    50   ~ 0
+SGMII0.RD_N2
+Text Label 7250 7200 0    50   ~ 0
+SGMII0.RD_P1
+Text Label 7250 7300 0    50   ~ 0
+SGMII0.RD_N1
+Text Label 7250 7400 0    50   ~ 0
+SGMII0.RD_P0
+Text Label 7250 7500 0    50   ~ 0
+SGMII0.RD_N0
+Text HLabel 1650 9100 0    50   BiDi ~ 0
+SGMII0{SGMII}
+$Comp
+L FPGA_Xilinx_Artix7:XC7A15T-FTG256 U?
+U 1 1 5EA4B453
+P 5150 4800
+AR Path="/5EA4B453" Ref="U?"  Part="1" 
+AR Path="/5EA2C6E9/5EA4B453" Ref="U1"  Part="1" 
+F 0 "U1" H 5150 1825 50  0000 C CNN
+F 1 "XC7A15T-FTG256" H 5150 1734 50  0000 C CNN
+F 2 "Package_BGA:Xilinx_FTG256" H 5150 4800 50  0001 C CNN
+F 3 "" H 5150 4800 50  0000 C CNN
+	1    5150 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Xilinx_Artix7:XC7A15T-FTG256 U?
+U 2 1 5EA4B44D
+P 12200 4900
+AR Path="/5EA4B44D" Ref="U?"  Part="2" 
+AR Path="/5EA2C6E9/5EA4B44D" Ref="U1"  Part="2" 
+F 0 "U1" H 12200 1925 50  0000 C CNN
+F 1 "XC7A15T-FTG256" H 12200 1834 50  0000 C CNN
+F 2 "Package_BGA:Xilinx_FTG256" H 12200 4900 50  0001 C CNN
+F 3 "" H 12200 4900 50  0000 C CNN
+	2    12200 4900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
