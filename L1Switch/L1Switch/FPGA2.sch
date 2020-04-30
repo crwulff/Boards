@@ -3,7 +3,7 @@ EELAYER 33 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 2 5
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -18,6 +18,288 @@ Comment7 ""
 Comment8 ""
 Comment9 ""
 $EndDescr
+Connection ~ 8900 7400
+Connection ~ 8900 7300
+Connection ~ 8900 7200
+Connection ~ 8900 7100
+Connection ~ 8900 7000
+Connection ~ 8900 6900
+Connection ~ 6450 7100
+Connection ~ 6450 7000
+Connection ~ 6450 6900
+Connection ~ 8900 8200
+Connection ~ 8900 8300
+Connection ~ 8900 8400
+Connection ~ 8900 8500
+Connection ~ 8900 8600
+Connection ~ 8900 8700
+Connection ~ 8900 8800
+Connection ~ 8900 8900
+Connection ~ 8900 9000
+Connection ~ 8900 9100
+Connection ~ 8900 9200
+Connection ~ 8900 9300
+Connection ~ 8900 9400
+Connection ~ 8900 9500
+Connection ~ 6450 8200
+Connection ~ 6450 8300
+Connection ~ 6450 8400
+Connection ~ 6450 8500
+Connection ~ 6450 8600
+Connection ~ 6450 8700
+Connection ~ 6450 8800
+Connection ~ 6450 8900
+Connection ~ 6450 9000
+Connection ~ 6450 9100
+Connection ~ 6450 9200
+Connection ~ 6450 9300
+Connection ~ 6450 9400
+Connection ~ 6450 9500
+Connection ~ 6000 7700
+Connection ~ 6450 7200
+Connection ~ 6550 8100
+Connection ~ 6450 7500
+Wire Wire Line
+	6000 7500 6000 7700
+Wire Wire Line
+	6000 7700 6000 7800
+Wire Wire Line
+	6000 7700 6650 7700
+Wire Wire Line
+	6450 6450 6450 6900
+Wire Wire Line
+	6450 6900 6450 7000
+Wire Wire Line
+	6450 6900 6650 6900
+Wire Wire Line
+	6450 7000 6450 7100
+Wire Wire Line
+	6450 7000 6650 7000
+Wire Wire Line
+	6450 7100 6450 7200
+Wire Wire Line
+	6450 7100 6650 7100
+Wire Wire Line
+	6450 7500 6450 7200
+Wire Wire Line
+	6450 7600 6450 7500
+Wire Wire Line
+	6450 8100 6550 8100
+Wire Wire Line
+	6450 8200 6450 8100
+Wire Wire Line
+	6450 8200 6650 8200
+Wire Wire Line
+	6450 8300 6450 8200
+Wire Wire Line
+	6450 8300 6650 8300
+Wire Wire Line
+	6450 8400 6450 8300
+Wire Wire Line
+	6450 8400 6650 8400
+Wire Wire Line
+	6450 8500 6450 8400
+Wire Wire Line
+	6450 8500 6650 8500
+Wire Wire Line
+	6450 8600 6450 8500
+Wire Wire Line
+	6450 8600 6650 8600
+Wire Wire Line
+	6450 8700 6450 8600
+Wire Wire Line
+	6450 8700 6650 8700
+Wire Wire Line
+	6450 8800 6450 8700
+Wire Wire Line
+	6450 8800 6450 8900
+Wire Wire Line
+	6450 8800 6650 8800
+Wire Wire Line
+	6450 8900 6450 9000
+Wire Wire Line
+	6450 9000 6450 9100
+Wire Wire Line
+	6450 9000 6650 9000
+Wire Wire Line
+	6450 9100 6450 9200
+Wire Wire Line
+	6450 9100 6650 9100
+Wire Wire Line
+	6450 9200 6450 9300
+Wire Wire Line
+	6450 9200 6650 9200
+Wire Wire Line
+	6450 9300 6450 9400
+Wire Wire Line
+	6450 9400 6450 9500
+Wire Wire Line
+	6450 9400 6650 9400
+Wire Wire Line
+	6450 9500 6450 9800
+Wire Wire Line
+	6450 9500 6650 9500
+Wire Wire Line
+	6550 7400 6550 8100
+Wire Wire Line
+	6550 8100 6650 8100
+Wire Wire Line
+	6650 7200 6450 7200
+Wire Wire Line
+	6650 7400 6550 7400
+Wire Wire Line
+	6650 7500 6450 7500
+Wire Wire Line
+	6650 7600 6450 7600
+Wire Wire Line
+	6650 7800 6000 7800
+Wire Wire Line
+	6650 8900 6450 8900
+Wire Wire Line
+	6650 9300 6450 9300
+Wire Wire Line
+	8650 6900 8900 6900
+Wire Wire Line
+	8650 7000 8900 7000
+Wire Wire Line
+	8650 7100 8900 7100
+Wire Wire Line
+	8650 7200 8900 7200
+Wire Wire Line
+	8650 7300 8900 7300
+Wire Wire Line
+	8650 7400 8900 7400
+Wire Wire Line
+	8650 7500 8900 7500
+Wire Wire Line
+	8650 8100 8900 8100
+Wire Wire Line
+	8650 8200 8900 8200
+Wire Wire Line
+	8650 8300 8900 8300
+Wire Wire Line
+	8650 8400 8900 8400
+Wire Wire Line
+	8650 8500 8900 8500
+Wire Wire Line
+	8650 8600 8900 8600
+Wire Wire Line
+	8650 8700 8900 8700
+Wire Wire Line
+	8650 8800 8900 8800
+Wire Wire Line
+	8650 8900 8900 8900
+Wire Wire Line
+	8650 9000 8900 9000
+Wire Wire Line
+	8650 9100 8900 9100
+Wire Wire Line
+	8650 9200 8900 9200
+Wire Wire Line
+	8650 9300 8900 9300
+Wire Wire Line
+	8650 9400 8900 9400
+Wire Wire Line
+	8650 9500 8900 9500
+Wire Wire Line
+	8900 6400 8900 6900
+Wire Wire Line
+	8900 6900 8900 7000
+Wire Wire Line
+	8900 7000 8900 7100
+Wire Wire Line
+	8900 7100 8900 7200
+Wire Wire Line
+	8900 7200 8900 7300
+Wire Wire Line
+	8900 7300 8900 7400
+Wire Wire Line
+	8900 7400 8900 7500
+Wire Wire Line
+	8900 8100 8900 8200
+Wire Wire Line
+	8900 8200 8900 8300
+Wire Wire Line
+	8900 8300 8900 8400
+Wire Wire Line
+	8900 8400 8900 8500
+Wire Wire Line
+	8900 8500 8900 8600
+Wire Wire Line
+	8900 8600 8900 8700
+Wire Wire Line
+	8900 8700 8900 8800
+Wire Wire Line
+	8900 8800 8900 8900
+Wire Wire Line
+	8900 8900 8900 9000
+Wire Wire Line
+	8900 9000 8900 9100
+Wire Wire Line
+	8900 9100 8900 9200
+Wire Wire Line
+	8900 9200 8900 9300
+Wire Wire Line
+	8900 9300 8900 9400
+Wire Wire Line
+	8900 9400 8900 9500
+Wire Wire Line
+	8900 9500 8900 9850
+$Comp
+L power:+1V0 #PWR0123
+U 1 1 5EB113CA
+P 6000 7500
+F 0 "#PWR0123" H 6000 7350 50  0001 C CNN
+F 1 "+1V0" H 6015 7670 50  0000 C CNN
+F 2 "" H 6000 7500 50  0001 C CNN
+F 3 "" H 6000 7500 50  0001 C CNN
+	1    6000 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V8 #PWR0125
+U 1 1 5EB0D48D
+P 6450 6450
+F 0 "#PWR0125" H 6450 6300 50  0001 C CNN
+F 1 "+1V8" H 6465 6620 50  0000 C CNN
+F 2 "" H 6450 6450 50  0001 C CNN
+F 3 "" H 6450 6450 50  0001 C CNN
+	1    6450 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V0 #PWR0126
+U 1 1 5EB0CAFB
+P 8900 6400
+F 0 "#PWR0126" H 8900 6250 50  0001 C CNN
+F 1 "+1V0" H 8915 6570 50  0000 C CNN
+F 2 "" H 8900 6400 50  0001 C CNN
+F 3 "" H 8900 6400 50  0001 C CNN
+	1    8900 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0127
+U 1 1 5EB0EA54
+P 6450 9800
+F 0 "#PWR0127" H 6450 9550 50  0001 C CNN
+F 1 "GND" H 6455 9630 50  0000 C CNN
+F 2 "" H 6450 9800 50  0001 C CNN
+F 3 "" H 6450 9800 50  0001 C CNN
+	1    6450 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 5EB0E624
+P 8900 9850
+F 0 "#PWR0124" H 8900 9600 50  0001 C CNN
+F 1 "GND" H 8905 9680 50  0000 C CNN
+F 2 "" H 8900 9850 50  0001 C CNN
+F 3 "" H 8900 9850 50  0001 C CNN
+	1    8900 9850
+	1    0    0    -1  
+$EndComp
 $Comp
 L FPGA_Xilinx_Artix7:XC7A15T-FTG256 U1
 U 4 1 5EA5A81F

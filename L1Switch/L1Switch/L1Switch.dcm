@@ -5,4 +5,8 @@ D Power symbol creates a global label with name "+1V2"
 K power-flag
 $ENDCMP
 #
+$CMP SRP1038A-1R0M
+D Bourns SRP1038A Series Type 1038 Shielded Wire-wound SMD Inductor with a Carbonyl Powder Core, 1 uH +/-20% Wire-Wound 18A
+$ENDCMP
+#
 #End Doc Library

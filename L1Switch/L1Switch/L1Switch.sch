@@ -3,7 +3,7 @@ EELAYER 33 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -18,6 +18,16 @@ Comment7 ""
 Comment8 ""
 Comment9 ""
 $EndDescr
+Wire Wire Line
+	2350 2300 3500 2300
+Wire Wire Line
+	2350 2400 3500 2400
+Wire Wire Line
+	2350 2500 3500 2500
+Wire Wire Line
+	2350 2600 3500 2600
+Wire Wire Line
+	2350 2700 3500 2700
 Wire Bus Line
 	2350 2100 3500 2100
 $Sheet
@@ -26,6 +36,11 @@ U 5EA2C6E9
 F0 "FPGA" 50
 F1 "FPGA.sch" 50
 F2 "SGMII0{SGMII}" B R 2350 2100 50 
+F3 "PHY_MDC" O R 2350 2500 50 
+F4 "PHY_MDIO" B R 2350 2600 50 
+F5 "PHY_RESET_N" O R 2350 2400 50 
+F6 "PHY_MDINT_N" I R 2350 2700 50 
+F7 "PHY0_REFCLK" O R 2350 2300 50 
 $EndSheet
 $Sheet
 S 1600 4100 950  1400
@@ -44,5 +59,11 @@ F4 "PHY_MDIO" B L 3500 2600 50
 F5 "PHY_RESET_N" B L 3500 2400 50 
 F6 "PHY_MDINT_N" B L 3500 2700 50 
 F7 "PHY_MDC" B L 3500 2500 50 
+$EndSheet
+$Sheet
+S 3250 4100 850  1450
+U 5EB1ADB9
+F0 "Power" 50
+F1 "Power.sch" 50
 $EndSheet
 $EndSCHEMATC
