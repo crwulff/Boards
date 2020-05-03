@@ -1,5 +1,5 @@
 EESchema Schematic File Version 5
-EELAYER 33 0
+EELAYER 34 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8

@@ -1,9 +1,9 @@
 EESchema Schematic File Version 5
-EELAYER 33 0
+EELAYER 34 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 3 6
+Sheet 4 6
 Title ""
 Date ""
 Rev ""
@@ -274,9 +274,9 @@ Wire Wire Line
 Wire Bus Line
 	1650 9100 1900 9100
 Wire Bus Line
-	1900 5500 1900 6100
+	1900 5500 1900 6200
 Wire Bus Line
-	1900 6100 1900 6300
+	1900 6200 1900 6300
 Wire Bus Line
 	1900 6300 1900 6500
 Wire Bus Line
@@ -288,17 +288,19 @@ Wire Bus Line
 Wire Bus Line
 	1900 7000 1900 7200
 Wire Bus Line
-	1900 7200 1900 7400
+	1900 7200 1900 7300
 Wire Bus Line
-	1900 7400 1900 7500
+	1900 7300 1900 7500
 Wire Bus Line
 	1900 7500 1900 9100
 Wire Bus Line
 	1900 9100 8600 9100
 Wire Bus Line
-	8600 5400 8600 6200
+	8600 5400 8600 6100
 Wire Bus Line
-	8600 6200 8600 6400
+	8600 6100 8600 6300
+Wire Bus Line
+	8600 6300 8600 6400
 Wire Bus Line
 	8600 6400 8600 6600
 Wire Bus Line

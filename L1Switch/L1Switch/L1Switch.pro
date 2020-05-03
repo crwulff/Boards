@@ -1,4 +1,4 @@
-update=Thu 30 Apr 2020 02:13:28 PM EDT
+update=Sat 02 May 2020 07:13:47 PM EDT
 version=1
 last_client=kicad
 [general]
@@ -33,23 +33,23 @@ ERC_CheckBusDriverConflicts=1
 ERC_CheckBusEntryConflicts=1
 ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
-[SchematicFrame]
-version=1
 [PcbFrame]
 version=1
 [LibeditFrame]
 version=1
 PinnedItems1=L1Switch
+[ModEditFrame]
+version=1
+PinnedItems1=L1Switch
+[SchematicFrame]
+version=1
 [sheetnames]
-1=00000000-0000-0000-0000-00005eb3030f:
+1=00000000-0000-0000-0000-00005ead91b6:
 2=00000000-0000-0000-0000-00005ea5561b:FPGA 2
 3=00000000-0000-0000-0000-00005eb1adb9:Power
 4=00000000-0000-0000-0000-00005ea2c6e9:FPGA
 5=00000000-0000-0000-0000-00005eaeb742:Net 1
 6=00000000-0000-0000-0000-00005ed0fdf9:Ports
-[ModEditFrame]
-version=1
-PinnedItems1=L1Switch
 [pcbnew]
 version=1
 PageLayoutDescrFile=
