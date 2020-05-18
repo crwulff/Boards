@@ -1,4 +1,4 @@
-update=Sun 17 May 2020 07:40:14 PM EDT
+update=Mon 18 May 2020 03:50:01 PM EDT
 version=1
 last_client=kicad
 [general]
@@ -44,7 +44,7 @@ PinnedItems1=L1Switch
 [SchematicFrame]
 version=1
 [sheetnames]
-1=9b502a3f-b73b-496a-bc0d-11f0b8b7f7f1:
+1=f826124a-152f-45bb-bba3-a43717f9075d:
 2=00000000-0000-0000-0000-00005ea2c6e9:FPGA
 3=00000000-0000-0000-0000-00005ea5561b:FPGA 2
 4=00000000-0000-0000-0000-00005eb1adb9:Power
@@ -74,8 +74,9 @@ RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
 CopperEdgeClearance=0.01
 TrackWidth1=0.2032
-TrackWidth2=0.2
-TrackWidth3=0.35
+TrackWidth2=0.1778
+TrackWidth3=0.2
+TrackWidth4=0.35
 ViaDiameter1=0.8
 ViaDrill1=0.4
 ViaDiameter2=0.45
