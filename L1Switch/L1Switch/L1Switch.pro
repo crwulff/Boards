@@ -1,4 +1,4 @@
-update=Mon 18 May 2020 03:50:01 PM EDT
+update=Tue 19 May 2020 06:32:28 PM EDT
 version=1
 last_client=kicad
 [general]
@@ -38,13 +38,13 @@ version=1
 [LibeditFrame]
 version=1
 PinnedItems1=L1Switch
+[SchematicFrame]
+version=1
 [ModEditFrame]
 version=1
 PinnedItems1=L1Switch
-[SchematicFrame]
-version=1
 [sheetnames]
-1=f826124a-152f-45bb-bba3-a43717f9075d:
+1=2ad43987-0dc2-4b06-95d9-23f1b1af2100:
 2=00000000-0000-0000-0000-00005ea2c6e9:FPGA
 3=00000000-0000-0000-0000-00005ea5561b:FPGA 2
 4=00000000-0000-0000-0000-00005eb1adb9:Power
@@ -118,7 +118,7 @@ DimensionPrecision=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
