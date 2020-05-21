@@ -1,4 +1,4 @@
-update=Tue 19 May 2020 06:32:28 PM EDT
+update=Wed 20 May 2020 11:29:11 PM EDT
 version=1
 last_client=kicad
 [general]
@@ -40,9 +40,6 @@ version=1
 PinnedItems1=L1Switch
 [SchematicFrame]
 version=1
-[ModEditFrame]
-version=1
-PinnedItems1=L1Switch
 [sheetnames]
 1=2ad43987-0dc2-4b06-95d9-23f1b1af2100:
 2=00000000-0000-0000-0000-00005ea2c6e9:FPGA
@@ -308,3 +305,6 @@ uViaDrill=0.1
 dPairWidth=0.2032
 dPairGap=0.1016
 dPairViaGap=0.25
+[ModEditFrame]
+version=1
+PinnedItems1=L1Switch

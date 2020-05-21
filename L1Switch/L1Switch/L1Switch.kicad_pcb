@@ -2747,7 +2747,7 @@
       (net 197 "/SGMII.RD_N4") (pinfunction "IO_L8N_T1_AD14N_35") (tstamp abd5cb61-14d5-4d32-9a3b-9271d4309479))
     (pad "A1" smd circle (at -7.5 -7.5) (size 0.4 0.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 127 "GND") (pinfunction "GND") (tstamp 3b7975c6-dcc1-4f0e-9e64-95ae94770b9b))
-    (model "${KISYS3DMOD}/Package_BGA.3dshapes/Xilinx_FTG256.wrl"
+    (model ":Projects:L1Switch/L1Switch/L1Switch.pretty/xc7a35tftg256.stp"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -11038,6 +11038,11 @@
       (net 346 "/Net 1/TXVA_P6") (pinfunction "TXVPA_6") (tstamp 72d4084b-b311-4d49-b537-bddfc56f8a94))
     (pad "B1" smd circle (at -12.5 -11.5 180) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 127 "GND") (pinfunction "VSS") (tstamp 988e855e-605e-44f7-aefb-bef931e1423a))
+    (model ":Projects:L1Switch/L1Switch/L1Switch.pretty/VSC8658.step"
+      (offset (xyz -13.5 -13.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (gr_line (start 67.31 154.94) (end 67.3 -57.718866) (layer "Margin") (width 0.15) (tstamp ffa4c653-6af1-47ac-aefc-287b0d2fa745))
