@@ -1,4 +1,4 @@
-update=Wed 20 May 2020 11:29:11 PM EDT
+update=Sun 24 May 2020 07:40:35 PM EDT
 version=1
 last_client=kicad
 [general]
@@ -47,6 +47,9 @@ version=1
 4=00000000-0000-0000-0000-00005eb1adb9:Power
 5=00000000-0000-0000-0000-00005eaeb742:Net 1
 6=00000000-0000-0000-0000-00005ed0fdf9:Ports
+[ModEditFrame]
+version=1
+PinnedItems1=L1Switch
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -305,6 +308,3 @@ uViaDrill=0.1
 dPairWidth=0.2032
 dPairGap=0.1016
 dPairViaGap=0.25
-[ModEditFrame]
-version=1
-PinnedItems1=L1Switch
