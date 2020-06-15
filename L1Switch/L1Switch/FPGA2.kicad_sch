@@ -1,6 +1,6 @@
-(kicad_sch (version 20200512) (host eeschema "5.99.0-unknown-adb1074~101~ubuntu20.04.1")
+(kicad_sch (version 20200608) (host eeschema "5.99.0-unknown-1973153~101~ubuntu20.04.1")
 
-  (page 1 8)
+  (page 1 12)
 
   (paper "B")
 
@@ -1511,6 +1511,7 @@
   )
 
   (symbol (lib_id "power:+1V0") (at 152.4 190.5 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005eb113ca")
     (property "Reference" "#PWR0123" (id 0) (at 152.4 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1525,6 +1526,7 @@
   )
 
   (symbol (lib_id "power:+1V8") (at 163.83 163.83 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005eb0d48d")
     (property "Reference" "#PWR0125" (id 0) (at 163.83 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1539,6 +1541,7 @@
   )
 
   (symbol (lib_id "power:+1V0") (at 226.06 162.56 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005eb0cafb")
     (property "Reference" "#PWR0126" (id 0) (at 226.06 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1553,6 +1556,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 163.83 248.92 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005eb0ea54")
     (property "Reference" "#PWR0127" (id 0) (at 163.83 255.27 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1567,6 +1571,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 226.06 250.19 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005eb0e624")
     (property "Reference" "#PWR0124" (id 0) (at 226.06 256.54 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1581,6 +1586,7 @@
   )
 
   (symbol (lib_id "FPGA_Xilinx_Artix7:XC7A15T-FTG256") (at 194.31 208.28 0) (unit 4)
+    (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005ea5a81f")
     (property "Reference" "U1" (id 0) (at 194.31 168.4782 0))
     (property "Value" "XC7A15T-FTG256" (id 1) (at 194.31 170.7896 0))
@@ -1591,6 +1597,7 @@
   )
 
   (symbol (lib_id "FPGA_Xilinx_Artix7:XC7A15T-FTG256") (at 195.58 100.33 0) (unit 3)
+    (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005ea55767")
     (property "Reference" "U1" (id 0) (at 163.0934 98.9838 0)
       (effects (font (size 1.27 1.27)) (justify right))
