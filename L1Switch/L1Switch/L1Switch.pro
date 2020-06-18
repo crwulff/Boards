@@ -1,4 +1,4 @@
-update=Thu 18 Jun 2020 02:18:48 PM EDT
+update=Thu 18 Jun 2020 06:29:43 PM EDT
 version=1
 last_client=kicad
 [general]
@@ -53,6 +53,9 @@ version=1
 10=93f5c75b-8c29-4c0d-bd75-538b4135dd0a:Net 4
 11=00000000-0000-0000-0000-00005ed0fdf9:Ports
 12=00000000-0000-0000-0000-00005eb1adb9:Power
+[ModEditFrame]
+version=1
+PinnedItems1=L1Switch
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -140,9 +143,8 @@ Extra_footprint=warning
 Unresolved_text_variable=error
 CopperEdgeClearance=0.01
 TrackWidth1=0.2032
-TrackWidth2=0.1778
-TrackWidth3=0.2
-TrackWidth4=0.35
+TrackWidth2=0.2
+TrackWidth3=0.35
 ViaDiameter1=0.8
 ViaDrill1=0.4
 ViaDiameter2=0.45
@@ -184,7 +186,7 @@ DimensionPrecision=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -374,6 +376,3 @@ uViaDrill=0.1
 dPairWidth=0.2032
 dPairGap=0.1016
 dPairViaGap=0.25
-[ModEditFrame]
-version=1
-PinnedItems1=L1Switch
