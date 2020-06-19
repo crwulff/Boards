@@ -1,6 +1,6 @@
 (kicad_sch (version 20200608) (host eeschema "5.99.0-unknown-1973153~101~ubuntu20.04.1")
 
-  (page 3 12)
+  (page 1 12)
 
   (paper "B")
 
@@ -1671,7 +1671,6 @@
   )
 
   (bus_alias "SPI_FLASH" (members "CS_N" "DI" "DO" "W_N" "HOLD_N"))
-
   (junction (at 152.4 195.58))
   (junction (at 163.83 175.26))
   (junction (at 163.83 177.8))
@@ -1736,8 +1735,8 @@
   (junction (at 387.35 54.61))
   (junction (at 394.97 52.07))
 
-  (no_connect (at 254 41.91))
   (no_connect (at 254 39.37))
+  (no_connect (at 254 41.91))
 
   (bus_entry (at 347.98 49.53) (size -2.54 -2.54))
   (bus_entry (at 347.98 52.07) (size -2.54 -2.54))
