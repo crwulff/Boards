@@ -1,4 +1,4 @@
-update=Thu 18 Jun 2020 06:29:43 PM EDT
+update=Fri 19 Jun 2020 12:05:40 AM EDT
 version=1
 last_client=kicad
 [general]
@@ -33,15 +33,16 @@ ERC_CheckBusDriverConflicts=1
 ERC_CheckBusEntryConflicts=1
 ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
-[PcbFrame]
-version=1
 [LibeditFrame]
+version=1
+PinnedItems1=L1Switch
+[ModEditFrame]
 version=1
 PinnedItems1=L1Switch
 [SchematicFrame]
 version=1
 [sheetnames]
-1=9a392e81-4581-4af4-86f3-9c7851ce5c9d:
+1=70208649-fd1e-4c14-bb03-9f319a5e79f0:
 2=00000000-0000-0000-0000-00005ea2c6e9:FPGA
 3=00000000-0000-0000-0000-00005ea5561b:FPGA 2
 4=00000000-0000-0000-0000-00005eaeb742:Net 1
@@ -53,9 +54,8 @@ version=1
 10=93f5c75b-8c29-4c0d-bd75-538b4135dd0a:Net 4
 11=00000000-0000-0000-0000-00005ed0fdf9:Ports
 12=00000000-0000-0000-0000-00005eb1adb9:Power
-[ModEditFrame]
+[PcbFrame]
 version=1
-PinnedItems1=L1Switch
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -71,12 +71,12 @@ AllowMicroVias=1
 AllowBlindVias=0
 MinClearance=0
 MinTrackWidth=0.2
-MinViaAnnulus=0.05
+MinViaAnnulus=0.127
 MinViaDiameter=0.4
-MinThroughDrill=0.3
+MinThroughDrill=0.2032
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
-MinHoleToHole=0.25
+MinHoleToHole=0.254
 Unconnected_items=error
 Track_too_close_to_hole=error
 Track_too_close_to_pad=error
@@ -141,14 +141,14 @@ Missing_footprint=warning
 Duplicate_footprints=warning
 Extra_footprint=warning
 Unresolved_text_variable=error
-CopperEdgeClearance=0.01
+CopperEdgeClearance=0.127
 TrackWidth1=0.2032
 TrackWidth2=0.2
 TrackWidth3=0.35
 ViaDiameter1=0.8
 ViaDrill1=0.4
-ViaDiameter2=0.45
-ViaDrill2=0.3
+ViaDiameter2=0.4572
+ViaDrill2=0.2032
 dPairWidth1=0.2032
 dPairGap1=0.1016
 dPairViaGap1=0.25
@@ -356,7 +356,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.1
+Clearance=0.09906
 TrackWidth=0.2032
 ViaDiameter=0.8
 ViaDrill=0.4
@@ -367,7 +367,7 @@ dPairGap=0.1016
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Diff_100
-Clearance=0.1
+Clearance=0.09906
 TrackWidth=0.2032
 ViaDiameter=0.8
 ViaDrill=0.4
