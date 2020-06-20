@@ -1,4 +1,4 @@
-update=Fri 19 Jun 2020 03:47:48 PM EDT
+update=Fri 19 Jun 2020 11:24:10 PM EDT
 version=1
 last_client=kicad
 [general]
@@ -33,18 +33,15 @@ ERC_CheckBusDriverConflicts=1
 ERC_CheckBusEntryConflicts=1
 ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
+[PcbFrame]
+version=1
+[SchematicFrame]
+version=1
 [LibeditFrame]
 version=1
 PinnedItems1=L1Switch
-[ModEditFrame]
-version=1
-PinnedItems1=L1Switch
-[SchematicFrame]
-version=1
-[PcbFrame]
-version=1
 [sheetnames]
-1=c116bbbd-4156-476c-928f-5f21095488ba:
+1=1daa9eae-1801-4995-9956-6a373923203d:
 2=00000000-0000-0000-0000-00005ea2c6e9:FPGA
 3=00000000-0000-0000-0000-00005ea5561b:FPGA 2
 4=00000000-0000-0000-0000-00005eaeb742:Net 1
@@ -56,6 +53,9 @@ version=1
 10=93f5c75b-8c29-4c0d-bd75-538b4135dd0a:Net 4
 11=00000000-0000-0000-0000-00005ed0fdf9:Ports
 12=00000000-0000-0000-0000-00005eb1adb9:Power
+[ModEditFrame]
+version=1
+PinnedItems1=L1Switch
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -66,7 +66,7 @@ LastVRMLExportPath=
 LastSpecctraDSNExportPath=
 LastGenCADExportPath=
 CopperLayerCount=4
-BoardThickness=1.68
+BoardThickness=1.6256
 AllowMicroVias=1
 AllowBlindVias=0
 MinClearance=0
@@ -186,7 +186,7 @@ DimensionPrecision=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
