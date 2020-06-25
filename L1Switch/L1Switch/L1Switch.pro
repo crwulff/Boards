@@ -1,4 +1,4 @@
-update=Mon 22 Jun 2020 09:49:12 PM EDT
+update=Thu 25 Jun 2020 12:23:06 AM EDT
 version=1
 last_client=kicad
 [general]
@@ -33,8 +33,6 @@ ERC_CheckBusDriverConflicts=1
 ERC_CheckBusEntryConflicts=1
 ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
-[PcbFrame]
-version=1
 [LibeditFrame]
 version=1
 PinnedItems1=L1Switch
@@ -42,6 +40,21 @@ PinnedItems1=L1Switch
 version=1
 PinnedItems1=L1Switch
 [SchematicFrame]
+version=1
+[sheetnames]
+1=8d738514-33ce-4118-a1a5-4ce17ae9544f:
+2=00000000-0000-0000-0000-00005ea2c6e9:FPGA
+3=00000000-0000-0000-0000-00005ea5561b:FPGA 2
+4=00000000-0000-0000-0000-00005eaeb742:Net 1
+5=00000000-0000-0000-0000-00005ed0fdf9:Ports
+6=90af1c3e-a7b2-4d79-9db3-05c586298b04:Net 2
+7=00000000-0000-0000-0000-00005ed0fdf9:Ports
+8=28f63643-740b-4f4c-b3f9-5c7522920ee4:Net 3
+9=00000000-0000-0000-0000-00005ed0fdf9:Ports
+10=93f5c75b-8c29-4c0d-bd75-538b4135dd0a:Net 4
+11=00000000-0000-0000-0000-00005ed0fdf9:Ports
+12=00000000-0000-0000-0000-00005eb1adb9:Power
+[PcbFrame]
 version=1
 [pcbnew]
 version=1
@@ -363,16 +376,3 @@ uViaDrill=0.1
 dPairWidth=0.2032
 dPairGap=0.1016
 dPairViaGap=0.25
-[sheetnames]
-1=71c53f3e-a7d6-4365-829f-4e79ee2a3b16:
-2=00000000-0000-0000-0000-00005ea2c6e9:FPGA
-3=00000000-0000-0000-0000-00005ea5561b:FPGA 2
-4=00000000-0000-0000-0000-00005eaeb742:Net 1
-5=00000000-0000-0000-0000-00005ed0fdf9:Ports
-6=90af1c3e-a7b2-4d79-9db3-05c586298b04:Net 2
-7=00000000-0000-0000-0000-00005ed0fdf9:Ports
-8=28f63643-740b-4f4c-b3f9-5c7522920ee4:Net 3
-9=00000000-0000-0000-0000-00005ed0fdf9:Ports
-10=93f5c75b-8c29-4c0d-bd75-538b4135dd0a:Net 4
-11=00000000-0000-0000-0000-00005ed0fdf9:Ports
-12=00000000-0000-0000-0000-00005eb1adb9:Power

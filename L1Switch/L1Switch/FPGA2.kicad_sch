@@ -1822,6 +1822,7 @@
   )
 
   (bus_alias "SPI_FLASH" (members "CS_N" "DI" "DO" "W_N" "HOLD_N"))
+
   (junction (at 121.92 185.42))
   (junction (at 121.92 200.66))
   (junction (at 127 175.26))
@@ -1935,15 +1936,15 @@
   (junction (at 392.43 207.01))
   (junction (at 394.97 52.07))
 
-  (no_connect (at 233.68 138.43))
-  (no_connect (at 367.03 148.59))
-  (no_connect (at 254 39.37))
-  (no_connect (at 316.23 168.91))
-  (no_connect (at 316.23 182.88))
-  (no_connect (at 254 41.91))
-  (no_connect (at 233.68 123.19))
   (no_connect (at 233.68 120.65))
   (no_connect (at 233.68 135.89))
+  (no_connect (at 233.68 138.43))
+  (no_connect (at 254 39.37))
+  (no_connect (at 254 41.91))
+  (no_connect (at 316.23 182.88))
+  (no_connect (at 233.68 123.19))
+  (no_connect (at 367.03 148.59))
+  (no_connect (at 316.23 168.91))
 
   (bus_entry (at 347.98 49.53) (size -2.54 -2.54))
   (bus_entry (at 347.98 52.07) (size -2.54 -2.54))

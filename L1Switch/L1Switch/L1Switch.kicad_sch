@@ -7,6 +7,7 @@
   (lib_symbols
   )
 
+
   (junction (at 81.28 68.58))
   (junction (at 81.28 101.6))
   (junction (at 81.28 134.62))
@@ -3652,6 +3653,21 @@
     (path "/00000000-0000-0000-0000-00005eb1adb9/a6cf4e3b-4097-4b6e-98d0-241cd1e558eb"
       (reference "#PWR08") (unit 1)
     )
+    (path "/00000000-0000-0000-0000-00005eb1adb9/68894dd9-dd8f-4f74-9d63-cd917d1e3415"
+      (reference "#PWR09") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005eb1adb9/44b0a481-5ab7-4ced-bec4-d46a3b525b0f"
+      (reference "#PWR010") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005eb1adb9/44f62f31-7e2c-47fc-b8bb-a62c04d97b70"
+      (reference "#PWR011") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005eb1adb9/c5ee59ee-f024-499b-bba6-5f4d9fa59c5d"
+      (reference "#PWR012") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005eb1adb9/986e491d-e316-430b-80bc-84f1624dcd7b"
+      (reference "#PWR013") (unit 1)
+    )
     (path "/00000000-0000-0000-0000-00005eb1adb9/00000000-0000-0000-0000-00005eb62595"
       (reference "#PWR0131") (unit 1)
     )
@@ -3801,6 +3817,30 @@
     )
     (path "/00000000-0000-0000-0000-00005eb1adb9/00000000-0000-0000-0000-00005eae705d"
       (reference "C63") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005eb1adb9/c3e05971-109a-40ac-bb2a-c3a0c36120e2"
+      (reference "C422") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005eb1adb9/6159894a-fbaf-46c4-9584-73cb3014a0b7"
+      (reference "C423") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005eb1adb9/fd01c609-7610-4217-9659-bfa0cb5c6664"
+      (reference "C424") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005eb1adb9/33b7a52a-4e71-4d61-b742-c239d2db7a55"
+      (reference "C425") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005eb1adb9/77ab44ca-8f3e-49a3-b872-04ec4af30ac8"
+      (reference "C426") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005eb1adb9/491802c3-1102-4766-bba6-cc866236fa89"
+      (reference "C427") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005eb1adb9/ea4ae098-8c2d-4394-bbe1-eafa13ce33bb"
+      (reference "C428") (unit 1)
+    )
+    (path "/00000000-0000-0000-0000-00005eb1adb9/0ae158c6-2d8e-4f84-90b5-7c8bd0d7878b"
+      (reference "C429") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005eb1adb9/00000000-0000-0000-0000-00005eb62c2a"
       (reference "D1") (unit 1)
