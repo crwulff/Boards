@@ -1,4 +1,4 @@
-update=Thu 25 Jun 2020 12:23:06 AM EDT
+update=Thu 25 Jun 2020 05:31:52 PM EDT
 version=1
 last_client=kicad
 [general]
@@ -36,9 +36,6 @@ ERC_CheckBusToNetConflicts=1
 [LibeditFrame]
 version=1
 PinnedItems1=L1Switch
-[ModEditFrame]
-version=1
-PinnedItems1=L1Switch
 [SchematicFrame]
 version=1
 [sheetnames]
@@ -56,6 +53,9 @@ version=1
 12=00000000-0000-0000-0000-00005eb1adb9:Power
 [PcbFrame]
 version=1
+[ModEditFrame]
+version=1
+PinnedItems1=L1Switch
 [pcbnew]
 version=1
 PageLayoutDescrFile=
