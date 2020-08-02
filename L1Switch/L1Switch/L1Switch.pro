@@ -1,4 +1,4 @@
-update=Mon 27 Jul 2020 01:19:25 PM EDT
+update=Sat 01 Aug 2020 08:22:16 PM EDT
 version=1
 last_client=kicad
 [general]
@@ -43,6 +43,19 @@ version=1
 [LibeditFrame]
 version=1
 PinnedItems1=L1Switch
+[sheetnames]
+1=4b441381-d11e-4b4c-874d-6b8b7ced30c1:
+2=00000000-0000-0000-0000-00005ea2c6e9:FPGA
+3=00000000-0000-0000-0000-00005ea5561b:FPGA 2
+4=00000000-0000-0000-0000-00005eaeb742:Net 1
+5=00000000-0000-0000-0000-00005ed0fdf9:Ports
+6=90af1c3e-a7b2-4d79-9db3-05c586298b04:Net 2
+7=00000000-0000-0000-0000-00005ed0fdf9:Ports
+8=28f63643-740b-4f4c-b3f9-5c7522920ee4:Net 3
+9=00000000-0000-0000-0000-00005ed0fdf9:Ports
+10=93f5c75b-8c29-4c0d-bd75-538b4135dd0a:Net 4
+11=00000000-0000-0000-0000-00005ed0fdf9:Ports
+12=00000000-0000-0000-0000-00005eb1adb9:Power
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -173,7 +186,7 @@ DimensionPrecision=1
 SolderMaskClearance=0.05
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -343,7 +356,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.09906
+Clearance=0.1016
 TrackWidth=0.2032
 ViaDiameter=0.8
 ViaDrill=0.4
@@ -354,7 +367,7 @@ dPairGap=0.1016
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Diff_100
-Clearance=0.09906
+Clearance=0.1016
 TrackWidth=0.2032
 ViaDiameter=0.8
 ViaDrill=0.4
@@ -363,16 +376,3 @@ uViaDrill=0.1
 dPairWidth=0.2032
 dPairGap=0.1016
 dPairViaGap=0.25
-[sheetnames]
-1=e1925482-a330-4ab1-8fa7-d633cdccfad0:
-2=00000000-0000-0000-0000-00005ea2c6e9:FPGA
-3=00000000-0000-0000-0000-00005ea5561b:FPGA 2
-4=00000000-0000-0000-0000-00005eaeb742:Net 1
-5=00000000-0000-0000-0000-00005ed0fdf9:Ports
-6=90af1c3e-a7b2-4d79-9db3-05c586298b04:Net 2
-7=00000000-0000-0000-0000-00005ed0fdf9:Ports
-8=28f63643-740b-4f4c-b3f9-5c7522920ee4:Net 3
-9=00000000-0000-0000-0000-00005ed0fdf9:Ports
-10=93f5c75b-8c29-4c0d-bd75-538b4135dd0a:Net 4
-11=00000000-0000-0000-0000-00005ed0fdf9:Ports
-12=00000000-0000-0000-0000-00005eb1adb9:Power
