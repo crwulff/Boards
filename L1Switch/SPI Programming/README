@@ -1,0 +1,15 @@
+The Winbond SPI flash used in REV-A (w25q128jv) is not one supported by Vivado (as of 2019.2) so openocd is used to program the flash instead.
+
+This binary was made using the openocd generator in contrib/loaders/flash/fpga/xilinx_bscan_spi.py with the patch applied in order to have the correct pinout.
+
+Flash programmed via openocd's jtagspi driver using the indirect JTAG to SPI bitstream. The openocd.cfg file is configured for raspberry pi.
+
+Openocd built from source commit d88765a7e2997c987ea7e5391378b3ae8b4fb59b (git://git.code.sf.net/p/openocd/code) with:
+
+./configure --enable-bcm2835gpio
+make -j3
+sudo make install
+
+Command to flash:
+
+sudo openocd -f openocd.cfg -c "init; jtagspi_init 0 bscan_spi_xc7a35t.bit; jtagspi_program L1S32.bin 0x0"
