@@ -1,4 +1,4 @@
-update=Sat 01 Aug 2020 08:22:16 PM EDT
+update=Sun 16 Aug 2020 09:16:16 PM EDT
 version=1
 last_client=kicad
 [general]
@@ -69,7 +69,7 @@ CopperLayerCount=4
 BoardThickness=1.6256
 AllowMicroVias=1
 AllowBlindVias=0
-MinClearance=0
+MinClearance=0.1016
 MinTrackWidth=0.2
 MinViaAnnulus=0.127
 MinViaDiameter=0.4
@@ -186,7 +186,7 @@ DimensionPrecision=1
 SolderMaskClearance=0.05
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
