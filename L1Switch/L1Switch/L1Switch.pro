@@ -1,4 +1,4 @@
-update=Fri 21 Aug 2020 11:48:00 PM EDT
+update=Sun 23 Aug 2020 08:46:10 PM EDT
 version=1
 last_client=kicad
 [general]
@@ -38,13 +38,13 @@ version=1
 [ModEditFrame]
 version=1
 PinnedItems1=L1Switch
-[SchematicFrame]
-version=1
 [LibeditFrame]
 version=1
 PinnedItems1=L1Switch
+[SchematicFrame]
+version=1
 [sheetnames]
-1=4b441381-d11e-4b4c-874d-6b8b7ced30c1:
+1=a02a03e2-9f45-437d-aa4f-067a85e16132:
 2=00000000-0000-0000-0000-00005ea2c6e9:FPGA
 3=00000000-0000-0000-0000-00005ea5561b:FPGA 2
 4=00000000-0000-0000-0000-00005eaeb742:Net 1
