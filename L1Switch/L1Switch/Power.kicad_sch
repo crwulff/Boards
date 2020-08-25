@@ -1,6 +1,6 @@
 (kicad_sch (version 20200608) (host eeschema "(5.99.0-1946-g60915fbc7)")
 
-  (page 12 12)
+  (page 1 12)
 
   (paper "B")
 
@@ -959,9 +959,9 @@
   (junction (at 396.24 143.51))
   (junction (at 396.24 182.88))
 
+  (no_connect (at 340.36 93.98))
   (no_connect (at 356.87 93.98))
   (no_connect (at 345.44 55.88))
-  (no_connect (at 340.36 93.98))
 
   (wire (pts (xy 20.32 48.26) (xy 29.21 48.26))
     (stroke (width 0) (type solid) (color 0 0 0 0))
