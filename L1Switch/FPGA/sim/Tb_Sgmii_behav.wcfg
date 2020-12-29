@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Tb_Sgmii_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Tb_Sgmii" />
+            <top_module name="comp_defs" />
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lib_pkg" />
+            <top_module name="lmb_bram_if_funcs" />
+            <top_module name="mdm_funcs" />
+            <top_module name="vcomponents" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="33561601fs"></ZoomEndTime>
+      <Cursor1Time time="12463807fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="235"></NameColumnWidth>
+      <ValueColumnWidth column_width="106"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject type="array" fp_name="/Tb_Sgmii/TxD_p_pin">
+      <obj_property name="ElementShortName">TxD_p_pin[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TxD_p_pin[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Tb_Sgmii/TxD_n_pin">
+      <obj_property name="ElementShortName">TxD_n_pin[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TxD_n_pin[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Tb_Sgmii/RxD_p_pin">
+      <obj_property name="ElementShortName">RxD_p_pin[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RxD_p_pin[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Tb_Sgmii/RxD_n_pin">
+      <obj_property name="ElementShortName">RxD_n_pin[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RxD_n_pin[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Tb_Sgmii/RxD_p_pin[0]">
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">[0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Tb_Sgmii/TxD_p_pin[0]">
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">[0]</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group27">
+      <obj_property name="label">Bank_35_Rx_1_SGMII</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="group" fp_name="group87">
+         <obj_property name="label">DRU</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="logic" fp_name="/Tb_Sgmii/dut/SgmiiRx_Bank_35/\Gen_1(1)\/RX_DRU/Clk_Half">
+            <obj_property name="ElementShortName">Clk_Half</obj_property>
+            <obj_property name="ObjectShortName">Clk_Half</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/Tb_Sgmii/dut/SgmiiRx_Bank_35/\Gen_1(1)\/RX_DRU/RxData4X">
+            <obj_property name="ElementShortName">RxData4X[7:0]</obj_property>
+            <obj_property name="ObjectShortName">RxData4X[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/Tb_Sgmii/dut/SgmiiRx_Bank_35/\Gen_1(1)\/RX_DRU/Clk_Quarter">
+            <obj_property name="ElementShortName">Clk_Quarter</obj_property>
+            <obj_property name="ObjectShortName">Clk_Quarter</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/Tb_Sgmii/dut/SgmiiRx_Bank_35/\Gen_1(1)\/RX_DRU/BITSLIP">
+            <obj_property name="ElementShortName">BITSLIP</obj_property>
+            <obj_property name="ObjectShortName">BITSLIP</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/Tb_Sgmii/dut/SgmiiRx_Bank_35/\Gen_1(1)\/RX_DRU/RxData">
+            <obj_property name="ElementShortName">RxData[9:0]</obj_property>
+            <obj_property name="ObjectShortName">RxData[9:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/Tb_Sgmii/dut/SgmiiRx_Bank_35/\Gen_1(1)\/RX_DRU/RxValid">
+            <obj_property name="ElementShortName">RxValid</obj_property>
+            <obj_property name="ObjectShortName">RxValid</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/Tb_Sgmii/dut/SgmiiRx_Bank_35/\Gen_1(1)\/RX_DRU/DataSlow">
+            <obj_property name="ElementShortName">DataSlow[4:0]</obj_property>
+            <obj_property name="ObjectShortName">DataSlow[4:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/Tb_Sgmii/dut/SgmiiRx_Bank_35/\Gen_1(1)\/RX_DRU/DataSlow_CNT">
+            <obj_property name="ElementShortName">DataSlow_CNT[2:0]</obj_property>
+            <obj_property name="ObjectShortName">DataSlow_CNT[2:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group1003">
+         <obj_property name="label">Align</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="logic" fp_name="/Tb_Sgmii/dut/SgmiiRx_Bank_35/\Gen_1(1)\/RX_ALIGN/Data_In_Valid">
+            <obj_property name="ElementShortName">Data_In_Valid</obj_property>
+            <obj_property name="ObjectShortName">Data_In_Valid</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/Tb_Sgmii/dut/SgmiiRx_Bank_35/\Gen_1(1)\/RX_ALIGN/Data_In">
+            <obj_property name="ElementShortName">Data_In[9:0]</obj_property>
+            <obj_property name="ObjectShortName">Data_In[9:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/Tb_Sgmii/dut/SgmiiRx_Bank_35/\Gen_1(1)\/RX_ALIGN/Comma">
+            <obj_property name="ElementShortName">Comma</obj_property>
+            <obj_property name="ObjectShortName">Comma</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/Tb_Sgmii/dut/SgmiiRx_Bank_35/\Gen_1(1)\/RX_ALIGN/Bitslip">
+            <obj_property name="ElementShortName">Bitslip</obj_property>
+            <obj_property name="ObjectShortName">Bitslip</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/Tb_Sgmii/dut/SgmiiRx_Bank_35/\Gen_1(1)\/RX_ALIGN/comma_Position">
+            <obj_property name="ElementShortName">comma_Position[9:0]</obj_property>
+            <obj_property name="ObjectShortName">comma_Position[9:0]</obj_property>
+         </wvobject>
+         <wvobject type="other" fp_name="/Tb_Sgmii/dut/SgmiiRx_Bank_35/\Gen_1(1)\/RX_ALIGN/comma_Misaligned">
+            <obj_property name="ElementShortName">comma_Misaligned</obj_property>
+            <obj_property name="ObjectShortName">comma_Misaligned</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group1447">
+         <obj_property name="label">Rx FIFO</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/Tb_Sgmii/dut/SgmiiRx_Bank_35/rxComma">
+            <obj_property name="ElementShortName">rxComma[11:0]</obj_property>
+            <obj_property name="ObjectShortName">rxComma[11:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/Tb_Sgmii/dut/SgmiiRx_Bank_35/I2">
+            <obj_property name="ElementShortName">I2[11:0]</obj_property>
+            <obj_property name="ObjectShortName">I2[11:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/Tb_Sgmii/dut/SgmiiRx_Bank_35/rxEven">
+            <obj_property name="ElementShortName">rxEven[11:0]</obj_property>
+            <obj_property name="ObjectShortName">rxEven[11:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/Tb_Sgmii/dut/SgmiiRx_Bank_35/\Gen_1(1)\/fifo/dropIdle[0]">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">[0]</obj_property>
+            <obj_property name="label">dropIdle[0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/Tb_Sgmii/dut/SgmiiRx_Bank_35/\Gen_1(1)\/fifo/insertIdle[0]">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">[0]</obj_property>
+            <obj_property name="label">insertIdle[0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/Tb_Sgmii/dut/SgmiiRx_Bank_35/\Gen_1(1)\/fifo/rxDataToFIFO[0]">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[0][19:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][19:0]</obj_property>
+            <obj_property name="label">rxDataToFIFO[0][19:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/Tb_Sgmii/dut/SgmiiRx_Bank_35/\Gen_1(1)\/fifo/rxDataFromFIFO[0]">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[0][19:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][19:0]</obj_property>
+            <obj_property name="label">rxDataFromFIFO[0][19:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/Tb_Sgmii/dut/SgmiiRx_Bank_35/\Gen_1(1)\/fifo/rxFIFOWrEn[0]">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">[0]</obj_property>
+            <obj_property name="label">rxFIFOWrEn[0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group1435">
+         <obj_property name="label">Tx SERDES</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="vbus" fp_name="vbus607">
+            <obj_property name="label">TxDIn[9:0]</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/Tb_Sgmii/dut/SgmiiTx/TxDIn[9]">
+               <obj_property name="ElementShortName">[9]</obj_property>
+               <obj_property name="ObjectShortName">[9]</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/Tb_Sgmii/dut/SgmiiTx/TxDIn[8]">
+               <obj_property name="ElementShortName">[8]</obj_property>
+               <obj_property name="ObjectShortName">[8]</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/Tb_Sgmii/dut/SgmiiTx/TxDIn[7]">
+               <obj_property name="ElementShortName">[7]</obj_property>
+               <obj_property name="ObjectShortName">[7]</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/Tb_Sgmii/dut/SgmiiTx/TxDIn[6]">
+               <obj_property name="ElementShortName">[6]</obj_property>
+               <obj_property name="ObjectShortName">[6]</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/Tb_Sgmii/dut/SgmiiTx/TxDIn[5]">
+               <obj_property name="ElementShortName">[5]</obj_property>
+               <obj_property name="ObjectShortName">[5]</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/Tb_Sgmii/dut/SgmiiTx/TxDIn[4]">
+               <obj_property name="ElementShortName">[4]</obj_property>
+               <obj_property name="ObjectShortName">[4]</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/Tb_Sgmii/dut/SgmiiTx/TxDIn[3]">
+               <obj_property name="ElementShortName">[3]</obj_property>
+               <obj_property name="ObjectShortName">[3]</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/Tb_Sgmii/dut/SgmiiTx/TxDIn[2]">
+               <obj_property name="ElementShortName">[2]</obj_property>
+               <obj_property name="ObjectShortName">[2]</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/Tb_Sgmii/dut/SgmiiTx/TxDIn[1]">
+               <obj_property name="ElementShortName">[1]</obj_property>
+               <obj_property name="ObjectShortName">[1]</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/Tb_Sgmii/dut/SgmiiTx/TxDIn[0]">
+               <obj_property name="ElementShortName">[0]</obj_property>
+               <obj_property name="ObjectShortName">[0]</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

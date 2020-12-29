@@ -1,0 +1,13 @@
+*.runs/
+*.cache/
+*.srcs/
+*.hw/
+*.sdk/
+*.gen/
+*.ip_user_files/
+*.sim/
+.Xil/
+*.jou
+*.str
+*.xsa
+*.xpr
