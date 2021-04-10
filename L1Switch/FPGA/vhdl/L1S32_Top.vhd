@@ -39,7 +39,9 @@ end L1S32_Top;
 
 architecture impl of L1S32_Top is
 
-constant C_Banks: integer := 3;
+constant C_Banks     : integer := 3;
+constant C_CpuPorts  : integer := 1;
+constant C_RouteWidth: integer := 13; -- 1 bit valid + 6 bits source + 6 bits dest
 
 signal clk25         : std_logic;
 signal clk125        : std_logic;
@@ -52,19 +54,21 @@ signal txMmcmLocked  : std_logic;
 signal rxClk         : std_logic_vector(C_Banks - 1 downto 0);
 signal rxClkDiv      : std_logic_vector(C_Banks - 1 downto 0);
 signal rxData10b     : std_logic_vector((C_DataWidth*10)-1 downto 0);
-signal rxData10b_r   : std_logic_vector((C_DataWidth*10)-1 downto 0);
-signal routedData10b : std_logic_vector((C_DataWidth*10)-1 downto 0);
+signal rxData10b_r   : std_logic_vector(((C_DataWidth+C_CpuPorts)*10)-1 downto 0);
+signal routedData10b : std_logic_vector(((C_DataWidth+C_CpuPorts)*10)-1 downto 0);
 
 signal bitslip       : std_logic_vector(C_DataWidth - 1 downto 0);
 
-subtype src_t is integer range 0 to 31;
-type route_t is array (0 to C_DataWidth-1) of src_t;
+subtype src_t is integer range 0 to (C_DataWidth + C_CpuPorts - 1);
+type route_t is array (0 to (C_DataWidth + C_CpuPorts) - 1) of src_t;
 signal routes : route_t;
-signal routeWrite    : std_logic_vector(10 downto 0);
-signal routeWrite_r  : std_logic_vector(10 downto 0);
-signal routeWrite_r2 : std_logic_vector(10 downto 0);
+signal routeWrite    : std_logic_vector(C_RouteWidth-1 downto 0);
+signal routeWrite_r  : std_logic_vector(C_RouteWidth-1 downto 0);
+signal routeWrite_r2 : std_logic_vector(C_RouteWidth-1 downto 0);
 
 signal GPIO_0_tri_io : std_logic_vector(9 downto 0);
+
+signal cpuTxData : std_logic_vector(9 downto 0);
 
 begin
 
@@ -112,7 +116,9 @@ blockdesign : entity work.design_1_wrapper
     clk_125              => clk125,
     clk_125_good         => txMmcmLocked,
     GPIO2_0_tri_o        => routeWrite,
-    Bitslip              => bitslip
+    Bitslip              => bitslip,
+    tx_data_0            => cpuTxData,
+    rx_data_0            => routedData10b(C_DataWidth*10+9 downto C_DataWidth*10)
   );
 end generate;
 
@@ -138,17 +144,17 @@ SgmiiTx : entity work.SgmiiTx
   port map (
     TxClkIn         => clk25,
     TxRstIn         => reset,
-    TxDIn           => routedData10b,
+    TxDIn           => routedData10b(C_DataWidth*10-1 downto 0),
     TxMmcmLocked    => txMmcmLocked,
     TxClk           => clk125,
     TxD             => txD
   );
 
-rxData10b_r   <= rxData10b when rising_edge(clk125);
+rxData10b_r   <= cpuTxData & rxData10b when rising_edge(clk125);
 routeWrite_r  <= routeWrite when rising_edge(clk125);
 routeWrite_r2 <= routeWrite_r when rising_edge(clk125);
 
-Gen_Routes : for n in 0 to C_DataWidth-1 generate
+Gen_Routes : for n in 0 to (C_DataWidth+C_CpuPorts)-1 generate
 
   route : process(clk125)
   begin
